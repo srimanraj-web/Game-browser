@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the best games across various genres on our Game Browsing Website. Explore top games like Red Dead Redemption 2, God of War Ragnarok, and more with stunning graphics and engaging storylines.">
+  <meta name="author" content="Your Name or Website Name">
   <title>Game Browsing Website</title>
   <style>
     body {
@@ -11,9 +13,8 @@
       background-color: #121212;
       color: #ffffff;
       background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEwL3Jhd3BpeGVsb2ZmaWNlMjFfZ2FtZV9wb3J0YWxfdWlfd2l0aF9ob2xvZ3JhbV9saWdodF90ZWNobm9sb2d5X185NTNkMjZjYS02MmM5LTRiNTEtYjhlMy1hY2QyM2QwMGZlNjRfMS5qcGc.jpg");
-       background-size: cover;
+      background-size: cover;
     }
-    
 
     header {
       background-image: url("https://as1.ftcdn.net/v2/jpg/01/16/60/78/1000_F_116607854_ric2VCk6rCwjj10ghu9jhBjx97xuuyJb.jpg");
@@ -120,82 +121,47 @@
 
   <nav>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Top Games</a></li>
-      <li><a href="#">Categories</a></li>
-      <li><a href="#">About</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#top-games">Top Games</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#about">About</a></li>
     </ul>
   </nav>
 
-  <div class="container">
+  <div class="container" id="top-games">
     <div class="game-card">
-      <img src="https://m.media-amazon.com/images/I/81dKP+iFloL._SX679_.jpg" alt="Game 1">
+      <img src="https://m.media-amazon.com/images/I/81dKP+iFloL._SX679_.jpg" alt="Cover of Red Dead Redemption 2" loading="lazy">
       <div class="details">
         <h3>RED DEAD REDEMPTION 2</h3>
-        <p>An exciting action-packed adventure game with high graghics!</p>
+        <p>An exciting action-packed adventure game with high graphics!</p>
       </div>
     </div>
     <div class="game-card">
-      <img src="https://image.api.playstation.com/vulcan/ap/rnd/202106/2322/v53I7qHvpWSQsL2oLxrM46NV.png" alt="Game 2">
+      <img src="https://image.api.playstation.com/vulcan/ap/rnd/202106/2322/v53I7qHvpWSQsL2oLxrM46NV.png" alt="Cover of Ghost of Tsushima" loading="lazy">
       <div class="details">
         <h3>GHOST OF TSUSHIMA</h3>
-        <p>A thrilling samurai with stunning graphics.</p>
+        <p>A thrilling samurai game with stunning graphics.</p>
       </div> 
     </div>
     <div class="game-card">
-      <img src="https://m.media-amazon.com/images/I/612CH0iQy8L._AC_UF894,1000_QL80_.jpg" alt="Game 3">
+      <img src="https://m.media-amazon.com/images/I/612CH0iQy8L._AC_UF894,1000_QL80_.jpg" alt="Cover of Detroit Become Human" loading="lazy">
       <div class="details">
         <h3>DETROIT BECOME HUMAN</h3>
-        <p>A choice based game to challenge your mind and your emotions.</p>
+        <p>A choice-based game that challenges your mind and emotions.</p>
       </div>
     </div>
     <div class="game-card">
-      <img src="https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png" alt="Game 4">
+      <img src="https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png" alt="Cover of God of War: Ragnarok" loading="lazy">
       <div class="details">
-        <h3>GOD OF WAR:RAGNAROK</h3>
-        <p>An exciting action-packed adventure game with high graghics! and stroyline</p>
+        <h3>GOD OF WAR: RAGNAROK</h3>
+        <p>An action-packed adventure game with stunning graphics and a compelling storyline!</p>
       </div>
     </div>
     <div class="game-card">
-      <img src="https://preview.redd.it/tjrzwr7nwzl51.jpg?width=640&crop=smart&auto=webp&s=9547109f30031b9ce0e9a6c61997bb9bb3843205" alt="Game 5">
+      <img src="https://preview.redd.it/tjrzwr7nwzl51.jpg?width=640&crop=smart&auto=webp&s=9547109f30031b9ce0e9a6c61997bb9bb3843205" alt="Cover of Forza Horizon 5" loading="lazy">
       <div class="details">
         <h3>FORZA HORIZON 5</h3>
-        <p>An exciting action-packed racing game with high graghics!</p>
-      </div>
-    </div>
-    <div class="game-card">
-      <img src="https://soundtrackfest.com/wp-content/uploads/2024/01/EldenRing-Tour2024-Poster.jpg" alt="Game 6">
-      <div class="details">
-        <h3>ELDEN RING</h3>
-        <p>An exciting action-packed adventure game with high graghics!</p>
-      </div>
-    </div>
-    <div class="game-card">
-      <img src="https://m.media-amazon.com/images/I/81AKSAqbueL._AC_UF1000,1000_QL80_.jpg" alt="Game 7">
-      <div class="details">
-        <h3>FAR CRY 6</h3>
-        <p>An exciting action-packed shooting adventure game with high graghics!</p>
-      </div>
-    </div>
-    <div class="game-card">
-      <img src="https://m.media-amazon.com/images/I/71v5sEBJBIL._UF1000,1000_QL80_.jpg" alt="Game 8">
-      <div class="details">
-        <h3>GTA 6</h3>
-        <p>An exciting action-packed simulation game with high graghics!</p>
-      </div>
-    </div>
-    <div class="game-card">
-      <img src="https://images-cdn.ubuy.co.in/66cbc509dc40b26b1a55d896-sekiro-shadows-die-twice-ps4.jpg" alt="Game 9">
-      <div class="details">
-        <h3>SEKIRO:SHADOWS DIE TWICE</h3>
-        <p>An exciting action-packed samurai adventure game with high graghics!</p>
-      </div>
-    </div>
-    <div class="game-card">
-      <img src="https://9meters.com/wp-content/uploads/black-myth-wukong-jjjfw.png" alt="Game 10">
-      <div class="details">
-        <h3>BLACK MYTH WUKONG</h3>
-        <p>An exciting action-packed chinese adventure game with high graghics!</p>
+        <p>An exciting racing game with breathtaking graphics!</p>
       </div>
     </div>
   </div>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse the latest and greatest action-packed adventure games. Discover your next favorite game with stunning graphics and gripping storylines.">
+  <meta name="keywords" content="games, action, adventure, RPG, shooter, top games, game browsing, PlayStation, Xbox, PC">
+  <meta name="author" content="Game Browsing Website">
+  <title>Game Browsing Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      background-image:url("https://img.freepik.com/free-vector/abstract-realistic-technology-particle-background_52683-33064.jpg");
+      background-size: cover;
+    }
+
+    header {
+      background-image: url("https://as1.ftcdn.net/v2/jpg/01/16/60/78/1000_F_116607854_ric2VCk6rCwjj10ghu9jhBjx97xuuyJb.jpg");
+      background-color: #1e1e1e;
+      padding: 15px;
+      text-align: center;
+      border-bottom: 2px solid #444;
+      background-size: cover;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #ffffff;
+      text-shadow: 0 0 10px #f8e71c, 0 0 20px #f8e71c;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: color 0.3s, text-shadow 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #f8e71c;
+      text-shadow: 0 0 5px #f8e71c, 0 0 10px #f8e71c;
+    }
+
+    .container {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .game-card {
+      background-color: #222;
+      border: 1px solid #444;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s, border 0.3s;
+    }
+
+    .game-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5), 0 0 15px #f8e71c;
+      border: 2px solid #f8e71c;
+    }
+
+    .game-card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .game-card .details {
+      padding: 10px;
+      text-align: center;
+    }
+
+    .game-card h3 {
+      margin: 0 0 10px;
+      font-size: 1rem;
+      color: #f8e71c;
+    }
+
+    .game-card p {
+      margin: 0;
+      font-size: 0.85rem;
+      color: #ccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #1e1e1e;
+      border-top: 2px solid #444;
+      margin-top: 20px;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+
+    .footer-links {
+      margin-top: 10px;
+    }
+
+    .footer-links a {
+      color: #f8e71c;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Game Browsing Website</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#" target="_blank">Home</a></li>
+      <li><a href="#" target="_blank">Top Games</a></li>
+      <li><a href="#" target="_blank">Categories</a></li>
+      <li><a href="#" target="_blank">About</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="container" id="gamesContainer">
+      <!-- Games -->
+      <div class="game-card">
+        <img src="https://m.media-amazon.com/images/I/81dKP+iFloL._SX679_.jpg" alt="RED DEAD REDEMPTION 2">
+        <div class="details">
+          <h3>RED DEAD REDEMPTION 2</h3>
+          <p>An action-packed adventure game with stunning graphics!</p>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202106/2322/v53I7qHvpWSQsL2oLxrM46NV.png" alt="GHOST OF TSUSHIMA">
+        <div class="details">
+          <h3>GHOST OF TSUSHIMA</h3>
+          <p>A thrilling samurai game with breathtaking visuals.</p>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://m.media-amazon.com/images/I/612CH0iQy8L._AC_UF894,1000_QL80_.jpg" alt="DETROIT BECOME HUMAN">
+        <div class="details">
+          <h3>DETROIT BECOME HUMAN</h3>
+          <p>A choice-based game that challenges your mind and emotions.</p>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png" alt="GOD OF WAR: RAGNAROK">
+        <div class="details">
+          <h3>GOD OF WAR: RAGNAROK</h3>
+          <p>An exciting action-packed adventure game with high graphics and story.</p>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://preview.redd.it/tjrzwr7nwzl51.jpg?width=640&crop=smart&auto=webp&s=9547109f30031b9ce0e9a6c61997bb9bb3843205" alt="FORZA HORIZON 5">
+        <div class="details">
+          <h3>FORZA HORIZON 5</h3>
+          <p>An exciting action-packed racing game with high graphics!</p>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://soundtrackfest.com/wp-content/uploads/2024/01/EldenRing-Tour2024-Poster.jpg" alt="ELDEN RING">
+        <div class="details">
+          <h3>ELDEN RING</h3>
+          <p>An open-world action RPG filled with exploration, combat, and intricate storylines.</p>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://m.media-amazon.com/images/I/81AKSAqbueL._AC_UF1000,1000_QL80_.jpg" alt="FAR CRY 6">
+        <div class="details">
+          <h3>FAR CRY 6</h3>
+          <p>An exciting action-packed shooting adventure game with high graphics!</p>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://m.media-amazon.com/images/I/71v5sEBJBIL._UF1000,1000_QL80_.jpg" alt="GTA 6">
+        <div class="details">
+          <h3>GTA 5</h3>
+          <p>A legendary open-world action game with immersive world-building and gripping storylines.</p>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://m.media-amazon.com/images/I/71qwExpwFkL.jpg" alt="MORTAL KOMBAT">
+        <div class="details">
+          <h3>MORTAL KOMBAT 11</h3>
+          <p>A brutal, fast-paced fighting game with a compelling roster of characters and unique combat mechanics.</p>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://m.media-amazon.com/images/I/81dpU5rMwRL._AC_UF894,1000_QL80_.jpg" alt="CALL OF DUTY: BLACK OPS">
+        <div class="details">
+          <h3>CALL OF DUTY: BLACK OPS</h3>
+          <p>Fast-paced first-person shooting with thrilling multiplayer action.</p>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://m.media-amazon.com/images/I/71RBFJDW4DL._AC_UF1000,1000_QL80_.jpg" alt="BATMAN: ARKHAM KNIGHT">
+        <div class="details">
+          <h3>BATMAN: ARKHAM KNIGHT</h3>
+          <p>Play as Batman in an open-world action game filled with iconic villains and combat.</p>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://m.media-amazon.com/images/I/81ikuWiWrrL.jpg" alt="UNCHARTED 4">
+        <div class="details">
+          <h3>UNCHARTED 4</h3>
+          <p>An action-packed adventure game featuring treasure hunts, action, and deep storytelling.</p>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://sm.ign.com/ign_za/gallery/s/spider-man/spider-man-2-rogues-gallery_uwcj.jpg" alt="MARVEL'S SPIDER-MAN 2">
+        <div class="details">
+          <h3>MARVEL'S SPIDER-MAN 2</h3>
+          <p>Swing into action in this next-gen superhero adventure.</p>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://m.media-amazon.com/images/I/81hEsg04h0L._AC_UF894,1000_QL80_.jpg" alt="LAST OF US PART II">
+        <div class="details">
+          <h3>LAST OF US PART II</h3>
+          <p>A gripping story of survival, revenge, and heartbreak.</p>
+        </div>
+      </div>
+       <div class="game-card">
+        <img src="https://m.media-amazon.com/images/I/81YptknEr3L._AC_UF894,1000_QL80_.jpg" alt="CYBERPUNK 2077">
+        <div class="details">
+          <h3>CYBERPUNK 2077</h3>
+          <p>In 2077, local fixer Dexter "Dex" DeShawn hires V and Jackie to steal a biochip known as "the Relic" from Arasaka Corporation. They acquire the Relic, but the plan goes awry when they witness the murder of the megacorp's leader Saburo Arasaka at the hands of his son Yorinobu.</p>
+        </div>
+      </div>
+       <div class="game-card">
+        <img src="https://m.media-amazon.com/images/I/61DB+NG7dpL._AC_UF350,350_QL50_.jpg" alt="SIFU">
+        <div class="details">
+          <h3>SIFU</h3>
+          <p>Sifu is a realistic third-person brawler with tight Kung Fu combat mechanics and cinematic martial arts action embarking you on a path for revenge.</p>
+        </div>
+      </div>
+      
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Game Browsing Website</p>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a> | 
+      <a href="#">Terms of Service</a>
+    </div>
+  </footer>
+
+</body>
+</html>
